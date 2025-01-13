@@ -24,7 +24,7 @@ the number of trips that will be needed. Format of the message must be "You will
 6. If the number of trips is one or less, display the message "Only one trip is needed."
 
 ### Planning
-- Start by creating and submitting a ## Input Processing Output chart to plan your program.
+- Start by creating and submitting a #Input Processing Output chart# to plan your program.
 - Create and submit two sample calculations by hand to test your program.
 - Submit your code for grading. You may submit your program as many times as needed to pass
 the sample output tests.
