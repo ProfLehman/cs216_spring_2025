@@ -1,4 +1,4 @@
-# 3.12 CS 216 In-Class P2 Example - Swimming Pool
+# 3.12 CS 216 In-Class IPO Example - Swimming Pool
 
 ## Overview
 A local swimming pool distributor needs a computer program that will calculate the number of gallons
@@ -17,11 +17,11 @@ Write a Python program that will perform the following:
 
 ### Output
 4. Display the number of gallons of water needed formatted to one decimal place and formatted
-with commas. The format of the message must be "A pool that is 100 feet in length, 20 feet in
-width, and 6 feet in depth will require 300.45 gallons of water."
+with commas. The format of the message must be "**A pool that is 100 feet in length, 20 feet in
+width, and 6 feet in depth will require 300.45 gallons of water.**"
 5. If the number of trips is more than one, display the number of trips that will be needed. Display
-the number of trips that will be needed. The format of the message must be "You will need 4 trips."
-6. If the number of trips is one or less, display the message "Only one trip is needed."
+the number of trips that will be needed. The format of the message must be "**You will need 4 trips.**"
+6. If the number of trips is one or less, display the message "**Only one trip is needed.**"
 
 ### Planning
 - Start by creating and submitting a **Input Processing Output chart** to plan your program.
