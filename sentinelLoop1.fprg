@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jlehman"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-01-23 05:00:51 PM"/>
+        <attribute name="created" value="amxlaG1hbjs5NzQtTkItNTMyMDsyMDIzLTAxLTI3OzA4OjU1OjU1IEFNOzI2MDk="/>
+        <attribute name="edited" value="amxlaG1hbjs5NzQtTkItNTMyMDsyMDI1LTAxLTIzOzA1OjAwOjUxIFBNOzg7MjcyMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="total" type="Integer" array="False" size=""/>
+            <declare name="number" type="Integer" array="False" size=""/>
+            <declare name="value" type="Integer" array="False" size=""/>
+            <assign variable="number" expression="0"/>
+            <assign variable="total" expression="0"/>
+            <input variable="value"/>
+            <while expression="value != -1">
+                <if expression="value &gt; 10">
+                    <then>
+                        <output expression="&quot;Error&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <assign variable="number" expression="number + 1"/>
+                        <assign variable="total" expression="total + value"/>
+                    </else>
+                </if>
+                <input variable="value"/>
+            </while>
+            <output expression="&quot;number of values = &quot; &amp; number" newline="True"/>
+            <output expression="&quot;total = &quot; &amp; total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jlehman"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-01-23 05:03:27 PM"/>
+        <attribute name="created" value="amxlaG1hbjs5NzQtTkItNTMyMDsyMDI1LTAxLTIzOzA0OjM5OjUwIFBNOzI2MTU="/>
+        <attribute name="edited" value="amxlaG1hbjs5NzQtTkItNTMyMDsyMDI1LTAxLTIzOzA1OjAzOjI3IFBNOzI7MjcyMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="row" type="Integer" array="False" size=""/>
+            <declare name="col" type="Integer" array="False" size=""/>
+            <declare name="answer" type="Integer" array="False" size=""/>
+            <assign variable="row" expression="0"/>
+            <while expression="row &lt;= 5">
+                <assign variable="col" expression="0"/>
+                <while expression="col &lt;= 5">
+                    <assign variable="answer" expression="row * col"/>
+                    <output expression="answer &amp; &quot;  &quot;" newline="False"/>
+                    <assign variable="col" expression="col + 1"/>
+                </while>
+                <output expression="&quot;&quot;" newline="True"/>
+                <assign variable="row" expression="row + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
