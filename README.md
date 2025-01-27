@@ -9,8 +9,9 @@
 - **poolSolution.py** - (IPO) sample code solution for filling pool - see zyBooks 3.12 lab- 
 - **classStatus.py** - (IF) demonstrates if's and nested if's using class status
 
-## if logic ##
+### if logic ###
 - **classStatus.py** demonstrates individual vs. nested if's including elif
+- **tax_rates.py** demonstrates if's including elif to calculate income tax based
 
 ### loops ###
 - **sentinelLoop1.py** uses primiming the loop approach
