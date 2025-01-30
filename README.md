@@ -2,6 +2,8 @@
 
 ## Exam 1 ##
 
+- **exam1Review.py** - code covered in-class for Exam #1 review
+  
 ### input processing output ##
 - **ch1.py** - overview of concepts in chapter 1 of zyBooks
 - **laps.py** - (IPO) sample in-class problem to determine miles based on laps swam
