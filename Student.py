@@ -71,7 +71,48 @@ class Student:
 
 
 # *** main ***
-alice = Student()
-print( alice )
+
+# 1.
+# create a Student instance using the default constructor
+# ie. no starting data given
+
+# 2.
+# display the instance using the display method
+
+# 3.
+# print the instance - calls str method
+
+# 4.
+# display the instance using the display method
+
+# 5.
+# create a Student instance using the alternate constructor
+# ie. starting data given
+
+# 6.
+# print the instance - calls str method
+
+# 7.
+# update the name and age for the first student
+# using the "setters"
+
+# 8.
+# display the data for both students using the "getters"
+
+# 9.
+# demonstrate the can_vote method
+
+# 10.
+# add the field major to the student class,
+# update the class to support this new field,
+# and update the demo in main for the two instances
+
+
+
+
+
+
+
+
 
 
