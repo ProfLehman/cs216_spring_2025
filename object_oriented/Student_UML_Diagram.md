@@ -1,3 +1,4 @@
+# Student Class
 ```mermaid
 classDiagram
     class Student {
