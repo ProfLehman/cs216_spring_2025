@@ -10,5 +10,6 @@ classDiagram
         + __str__() str
         + predictFuture(years) void
         + predictPast(years) void
+        + predict(years) void
     }
 ```
