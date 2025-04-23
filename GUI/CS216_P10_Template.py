@@ -39,7 +39,7 @@ def process_data():
     canvas.create_arc(50, 50, 250, 250, start=cStart, extent=cExtent, fill="green")
     
 
-    # write summary to CSV file
+    # (4) write summary to CSV file
     
     # end process data
     
